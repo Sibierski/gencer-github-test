@@ -1,10 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Gencer's First GitHub Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gencer HR Analytics Lab</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .number {
+            font-size: 32px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .label {
+            color: #777;
+        }
+    </style>
 </head>
+
 <body>
+
     <h1>Gencer's HR Analytics Lab 🚀</h1>
-    <p>My first experiment with GitHub, HTML and HR technology.</p>
+
+    <div class="subtitle">
+        Workforce Analytics Dashboard
+    </div>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <div class="label">Employees</div>
+            <div class="number">5,600</div>
+        </div>
+
+        <div class="card">
+            <div class="label">Engagement</div>
+            <div class="number">82%</div>
+        </div>
+
+        <div class="card">
+            <div class="label">Turnover</div>
+            <div class="number">9.4%</div>
+        </div>
+
+        <div class="card">
+            <div class="label">Talent Coverage</div>
+            <div class="number">76%</div>
+        </div>
+
+    </div>
+
 </body>
 </html>
